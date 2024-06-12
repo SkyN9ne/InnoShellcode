@@ -12,7 +12,7 @@ The most challenging aspect of this project was understanding how to manipulate 
 
 The parameters can be found at the beginning of the InnoSetup Script File.
 
-* **`SpawnNewProcess`:** `(1|0)`: If this is set to `1`, the payload will be stored and executed from a newly spawned process (default: `notepad.exe`). If set to `0`, the payload will be stored and executed from the current InnoSetup Installer Process.
+* **`SpawnNewProcess`:** (1|0): If this is set to `1`, the payload will be stored and executed from a newly spawned process (default: `notepad.exe`). If set to `0`, the payload will be stored and executed from the current InnoSetup Installer Process.
 * **`SpawnProcessName`:** (STR): This parameter comes into play only if `SpawnNewProcess` is set to `1`. You can modify this value to spawn the process of your choice.
 * **`verbose`:** `(1|0)`: Use this parameter to determine whether you want to generate debug messages (for example, from `DbgView`).
 * **`Payload`:** (HEX_STR): This parameter is used to define the payload itself in hex format (aligned 2). If you're using `Msfvenom`, utilize the `-f hex` option.
