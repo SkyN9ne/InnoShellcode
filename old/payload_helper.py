@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 payload =  b"" # Replace with generated payload.
                # Example: msfvenom -p windows/exec -a x86 --platform Windows CMD=calc.exe EXITFUNC=thread -f python -v payload 
 
